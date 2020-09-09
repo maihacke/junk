@@ -18,6 +18,9 @@ https://www.theregister.com/2020/03/26/corejs_maintainer_jailed_code_release/
 
 https://github.com/zloirock/core-js/issues/747#issuecomment-573318269
 
+
+https://browsersync.io/
+
 https://lit-html.polymer-project.org
 
 https://redux.js.org
