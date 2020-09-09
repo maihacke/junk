@@ -1,6 +1,8 @@
 import { createStore } from './redux.js';
 
 export const ADD = 'ADD';
+export const RESET = 'RESET';
+
 const messages = (state = 'no message', action) => { 
     
     const { type, payload = '' } = action;
@@ -9,6 +11,9 @@ const messages = (state = 'no message', action) => {
         
         case ADD:
             return state + payload;
+
+        case RESET:
+            return '';
 
     }
 

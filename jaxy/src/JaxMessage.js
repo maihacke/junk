@@ -1,5 +1,5 @@
 import { html, render } from "./lit-html.js";
-import { store, ADD } from './store.js';
+import { store, ADD, RESET } from './store.js';
 
 class JaxMessage extends HTMLElement { 
 
@@ -8,6 +8,7 @@ class JaxMessage extends HTMLElement {
         const template = html`
             <h1>${message}</h1>
             <button @click="${_=>this.sendMessage()}">message</button>
+            <button @click="${_=>this.delete()}">delete</button>
         `;
         render(template,this);
     }
@@ -17,7 +18,14 @@ class JaxMessage extends HTMLElement {
         store.dispatch({
             type: ADD,
             payload: "hey duke " + new Date()
-        })
+        });
+    }
+
+    delete() { 
+        store.dispatch({
+            type: RESET
+        });
+
     }
 
 }
