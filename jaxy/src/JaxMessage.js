@@ -1,5 +1,5 @@
 import { html, render } from "./lit-html.js";
-import { store, ADD } from './app.js';
+import { store, ADD } from './store.js';
 
 class JaxMessage extends HTMLElement { 
 
