@@ -10,6 +10,11 @@ class JaxOutput extends HTMLElement {
     update() { 
         const message = store.getState();
         const template = html`
+        <style>
+            h2 {
+                background-color: pink;
+            }
+        </style>
             <h2>${message}</h2>
         `;
         render(template, this);

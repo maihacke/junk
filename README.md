@@ -38,3 +38,5 @@ http://airhacks.eventbrite.com/
 podcast: https://airhacks.fm
 
 browser-sync src -f src -b "google chrome" --no-notify
+
+https://github.com/zalmoxisus/redux-devtools-extension
