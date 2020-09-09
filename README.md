@@ -1,6 +1,6 @@
 # github.com/AdamBien/junk
 
-Talks / Conferences samples
+JAX Mainz: "Vom Java-Entwickler zum Webguru in 60 Minuten #slideless" example
 ========
 
 

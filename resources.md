@@ -11,5 +11,5 @@ https://airhacks.fm
 https://airhacks.io
 
 https://www.meetup.com/airhacks
-http://airhacks.eventbrite.com/#Resources
-#Resources
+http://airhacks.eventbrite.com/
+
